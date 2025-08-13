@@ -3314,11 +3314,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mashpak\\source\\repos\\HeadEndDynamicXpath\\HeadEndDynamicXpath.csproj",
+      "projectUniqueName": "C:\\Users\\mashpak\\source\\repos\\GitHubHeadEndDynamicXpath\\HeadEndDynamicXpath\\HeadEndDynamicXpath.csproj",
       "projectName": "HeadEndDynamicXpath",
-      "projectPath": "C:\\Users\\mashpak\\source\\repos\\HeadEndDynamicXpath\\HeadEndDynamicXpath.csproj",
+      "projectPath": "C:\\Users\\mashpak\\source\\repos\\GitHubHeadEndDynamicXpath\\HeadEndDynamicXpath\\HeadEndDynamicXpath.csproj",
       "packagesPath": "C:\\Users\\mashpak\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mashpak\\source\\repos\\HeadEndDynamicXpath\\obj\\",
+      "outputPath": "C:\\Users\\mashpak\\source\\repos\\GitHubHeadEndDynamicXpath\\HeadEndDynamicXpath\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mashpak\\AppData\\Roaming\\NuGet\\NuGet.Config",
