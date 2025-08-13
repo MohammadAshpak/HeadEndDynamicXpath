@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HeadEndDynamicXpath")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98dc21ebc2b037aeb0a310e388110e1d4c4f1f86")]
 [assembly: System.Reflection.AssemblyProductAttribute("HeadEndDynamicXpath")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HeadEndDynamicXpath")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

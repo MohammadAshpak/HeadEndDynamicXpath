@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DHe/kcFvLjE=",
+  "dgSpecHash": "SBBsxBLEuIk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mashpak\\source\\repos\\HeadEndDynamicXpath\\HeadEndDynamicXpath.csproj",
+  "projectFilePath": "C:\\Users\\mashpak\\source\\repos\\GitHubHeadEndDynamicXpath\\HeadEndDynamicXpath\\HeadEndDynamicXpath.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mashpak\\.nuget\\packages\\anglesharp\\1.0.4\\anglesharp.1.0.4.nupkg.sha512",
     "C:\\Users\\mashpak\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
