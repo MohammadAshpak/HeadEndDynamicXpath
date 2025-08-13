@@ -1,0 +1,7 @@
+﻿menu=Jobs/All Jobs
+jobstatus=div.k-grid-content table tbody td:nth-child(7) span
+jobInstanceLink=div.k-grid-content table tbody td:nth-child(2) div a
+endpointStatus=//a[text()='Endpoint Status']
+viewResults=//a[text()='View Result']
+resultPopup=//h4[text()='Contingency Read']
+resuktsRow=div.panel-default table tbody tr

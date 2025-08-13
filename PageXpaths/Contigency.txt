@@ -1,0 +1,10 @@
+﻿jobsSelector=span.k-input
+menu=Jobs/Job Scheduling
+jobsDropElements=div.k-popup div ul.k-list li
+esnCheck=//input[@name='EndPoint']/..
+endpointTextBox=//input[@name='EndPoint']/../../div/textarea
+startNow=//input[@name='Immediate']/..
+selectAmountData=select.timeRangeOpts
+instabtCheckBox=//div[normalize-space()='Instantaneous data']/input
+submitBtn=//button[text()='Submit']
+successMessage=div.alert

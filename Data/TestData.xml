@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<TestData>
+	<Pages name="Contigency">
+		<ESN>2.16.840.1.114416.900.30000007</ESN>
+		<JobName>Contingency Read</JobName>
+	</Pages>
+	<Pages name="Dashboard">
+		<PageTitle>Device Configuration Manager</PageTitle>
+		
+	</Pages>
+	<Pages name="CreateConfig">
+		<ConfigName>GenX 500W Cellular Ashpak</ConfigName>
+		<ConfigDescription>GenX 500W Cellular Ashpak Group</ConfigDescription>
+		<DeviceClass>GenX 500W Cellular Module</DeviceClass>
+
+	</Pages>
+
+
+</TestData>

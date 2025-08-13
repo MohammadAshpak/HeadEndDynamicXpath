@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddMeterCommandButton" xml:space="preserve">
+    <value>//span[text()='Add a meter command']</value>
+  </data>
+  <data name="C12StatusResult" xml:space="preserve">
+    <value>//*[contains(text(),'Status code: SUCCESS')]</value>
+  </data>
+  <data name="CalenderDate" xml:space="preserve">
+    <value>//*[@class="datePickerDay"]</value>
+  </data>
+  <data name="Channel1_td" xml:space="preserve">
+    <value>//span[text()='Channel 1']</value>
+  </data>
+  <data name="CompleteText" xml:space="preserve">
+    <value>//span[@id='deployed']</value>
+  </data>
+  <data name="ConfigOptions" xml:space="preserve">
+    <value>//select[@name='itron500sconfigjob_configParameters']</value>
+  </data>
+  <data name="Configuration_Page" xml:space="preserve">
+    <value>//li[@id='config']//a</value>
+  </data>
+  <data name="DeviceDetails_DeviceType" xml:space="preserve">
+    <value>//div[contains(@id,'DetailsContent')]//div[@class='pvs pll']//label[contains(text(), "Sub-Type:")]</value>
+  </data>
+  <data name="DeviceOptions" xml:space="preserve">
+    <value>//li/a[text()='dynamic']</value>
+  </data>
+  <data name="DevicePageButton" xml:space="preserve">
+    <value>//button[text()='dynamic']</value>
+  </data>
+  <data name="EndDateOkButton" xml:space="preserve">
+    <value>//*[@id="end_date_DatePicker_0_okButton"]</value>
+  </data>
+  <data name="EndTimeRange" xml:space="preserve">
+    <value>//*[@data-selenium="end_date_link"]</value>
+  </data>
+  <data name="EndTimeTodayDate" xml:space="preserve">
+    <value>//tr[contains(@id,'end_date_DatePicker_')]//td[@class='datePickerDay selectedDate']</value>
+  </data>
+  <data name="EventsList" xml:space="preserve">
+    <value>//table[@id='eventListGroupedTable']//tr/td/div/a</value>
+  </data>
+  <data name="EventsTab" xml:space="preserve">
+    <value>//*[@id="events"]/a</value>
+  </data>
+  <data name="GDTReadTime" xml:space="preserve">
+    <value>//table/tbody/tr/td/div/div/span/b[text()='Read Time']/parent::span</value>
+  </data>
+  <data name="GDT_RegVal" xml:space="preserve">
+    <value>//*[@id='odr_results']//tbody[@id='regResults']//tr/td[@class='tac']</value>
+  </data>
+  <data name="GenericMeterReadData" xml:space="preserve">
+    <value>//*[contains(text(),'GenericMeterReadData')]</value>
+  </data>
+  <data name="GMRD_Label" xml:space="preserve">
+    <value>//div[text()='dynamic']</value>
+  </data>
+  <data name="IntervalTableHeader" xml:space="preserve">
+    <value>//table[@id='odr_results']/tbody/tr/th</value>
+  </data>
+  <data name="IntervalTimeData" xml:space="preserve">
+    <value>//table[@id='odr_results']/tbody/tr/td[contains(text(),'pm') or contains(text(),'am')]</value>
+  </data>
+  <data name="IntervalTimeData1" xml:space="preserve">
+    <value>//table[@id='odr_results']/tbody/tr/td[contains(text(),'pm') or contains(text(),'am')]</value>
+  </data>
+  <data name="IntervalTimeFirstRowValue" xml:space="preserve">
+    <value>//*[@id="odr_results"]/tbody/tr[2]/td[3]</value>
+  </data>
+  <data name="IntervalTimeSecondRowValue" xml:space="preserve">
+    <value>//*[@id="odr_results"]/tbody/tr[3]/td[1]</value>
+  </data>
+  <data name="Interval_Unit_List" xml:space="preserve">
+    <value>//table[@id='odr_results']/tbody/tr/td[3]</value>
+  </data>
+  <data name="JMSTimeoutInput" xml:space="preserve">
+    <value>//span[@id='push_to_jms_timeout']/input</value>
+  </data>
+  <data name="JMS_Dropdown" xml:space="preserve">
+    <value>//*[normalize-space()='Push results to JMS:']//following-sibling::*/select</value>
+  </data>
+  <data name="JobDetails_Reg_List" xml:space="preserve">
+    <value>//table[@class='standard']/tbody/tr/td[@class='nowrap ']</value>
+  </data>
+  <data name="JobSubmittedBy_Det" xml:space="preserve">
+    <value>//table[@id='odr_results']/tbody/tr/td</value>
+  </data>
+  <data name="Job_Details_ODR_RegList" xml:space="preserve">
+    <value>//table[@class='standard']/tbody/tr/td[@class='combined tar']</value>
+  </data>
+  <data name="LastRunTime" xml:space="preserve">
+    <value>//a[normalize-space()='Last Run Time']</value>
+  </data>
+  <data name="Latest_Results_Link_ODR" xml:space="preserve">
+    <value>//a[text()='Latest Results']</value>
+  </data>
+  <data name="MasterMeterODRResults" xml:space="preserve">
+    <value>//*[@id='register_results']//tr[2]</value>
+  </data>
+  <data name="NicReadResults" xml:space="preserve">
+    <value>//*[@id='odr_results_div']//div</value>
+  </data>
+  <data name="ODRGDTReadTime" xml:space="preserve">
+    <value>//table/tbody[@id='regResults']/tr/td[position()=1]</value>
+  </data>
+  <data name="ODRResultsTableHeader" xml:space="preserve">
+    <value>//table[@id='odr_results']//tr//th</value>
+  </data>
+  <data name="ODRResultsTableValue" xml:space="preserve">
+    <value>//*[@id='odr_results']//tr[2]</value>
+  </data>
+  <data name="ODRResultsTableValueGDT" xml:space="preserve">
+    <value>//td[@class="paginationbar"]/parent::tr/following-sibling::tr[position()=1]</value>
+  </data>
+  <data name="ODR_Immediate_List_Key" xml:space="preserve">
+    <value>//table[@id='odr_results']/tbody[@id='regResults']/tr/td[@class='combined tar']/following::td[position()=1]</value>
+  </data>
+  <data name="ODR_Immediate_List_Key1" xml:space="preserve">
+    <value>//table[@id='odr_results']/tbody[@id='regResults']/tr/td[@class='combined tar']/following::td[position()=1]</value>
+  </data>
+  <data name="ODR_Immediate_List_Val" xml:space="preserve">
+    <value>//table[@id='odr_results']/tbody[@id='regResults']/tr/td[@class='combined tar']</value>
+  </data>
+  <data name="ODR_IntervalRead_LP_Key" xml:space="preserve">
+    <value>//table[@id='odr_results']/tbody/tr/td[@style='padding-left:2px;']</value>
+  </data>
+  <data name="ODR_IntervalRead_LP_TimeRange_Key_Row1" xml:space="preserve">
+    <value>//table[@id='odr_results']/tbody/tr[2]/td[@style='padding-left:2px;']</value>
+  </data>
+  <data name="ODR_IntervalRead_LP_TimeRange_Total_Rows" xml:space="preserve">
+    <value>//table[@id='odr_results']/tbody/tr</value>
+  </data>
+  <data name="ODR_IntervalRead_LP_TimeRange_Val_Row1" xml:space="preserve">
+    <value>//table[@id='odr_results']/tbody/tr[2]/td[@class='align-right blue_bg']</value>
+  </data>
+  <data name="ODR_IntervalRead_LP_Val" xml:space="preserve">
+    <value>//table[@id='odr_results']/tbody/tr/td[@class='align-right blue_bg']</value>
+  </data>
+  <data name="ODR_JobDetails_Label_Val" xml:space="preserve">
+    <value>//label[normalize-space()='dynamic:']/following-sibling::span/span</value>
+  </data>
+  <data name="ODR_Job_Status" xml:space="preserve">
+    <value>//table[@id='detail-health']//tr//label[text()='Status:']/ancestor::td</value>
+  </data>
+  <data name="ODR_NDR_Immediate_List_Val" xml:space="preserve">
+    <value>//table[@id='odr_results']/tbody/tr/td[@class='align-right blue_bg']</value>
+  </data>
+  <data name="ODR_NDR_Immediate_List_Val1" xml:space="preserve">
+    <value>//table[@id='odr_results']/tbody/tr/td[5]</value>
+  </data>
+  <data name="ODR_Result_Table_Link" xml:space="preserve">
+    <value>//table[@id='odr_results']</value>
+  </data>
+  <data name="ODR_Result_td" xml:space="preserve">
+    <value>//table[@id='resultsTable']//table[@class='standard']/tbody//tr/td[1]</value>
+  </data>
+  <data name="ODR_Result_td1" xml:space="preserve">
+    <value>//table[@id='odr_results']//tr/td</value>
+  </data>
+  <data name="OnDemandReadHeaderText" xml:space="preserve">
+    <value>//*[@id='hidden_results']//h2</value>
+  </data>
+  <data name="OnDemandRead_Page" xml:space="preserve">
+    <value>//h2[text()='On Demand Read*']</value>
+  </data>
+  <data name="PageBackLink" xml:space="preserve">
+    <value>//*[@id="start_date_DatePicker_0_monthPageBackLink"]/img</value>
+  </data>
+  <data name="PeriodInput" xml:space="preserve">
+    <value>//label[normalize-space()='dynamic:']//parent::div//span//input</value>
+  </data>
+  <data name="ReadButton" xml:space="preserve">
+    <value>//input[@data-selenium='read_button']</value>
+  </data>
+  <data name="ReadResultsChannel1Value" xml:space="preserve">
+    <value>//*[@id='odr_results']//tr[@class='odd']/td[4]</value>
+  </data>
+  <data name="ReadResultsReadDateValue" xml:space="preserve">
+    <value>//*[@id="regResults"]/tr[1]/td[1]/span</value>
+  </data>
+  <data name="ReadResultsReadTimeValue" xml:space="preserve">
+    <value>//*[@id="odr_results"]/tbody/tr[2]/td[1]</value>
+  </data>
+  <data name="ReadResultsStartTimeValue" xml:space="preserve">
+    <value>//*[@id="odr_results"]//tr[@class="odd"]/td[1]</value>
+  </data>
+  <data name="ReadResultsTierValue" xml:space="preserve">
+    <value>//*[@id="regResults"]/tr[1]/td[3]</value>
+  </data>
+  <data name="ReadResultsValue" xml:space="preserve">
+    <value>//*[@id="regResults"]/tr[1]/td[5]</value>
+  </data>
+  <data name="ReadScope_dropdown" xml:space="preserve">
+    <value>//label[normalize-space()='Read Scope:']//following-sibling::span/select</value>
+  </data>
+  <data name="ReadTypeDropDown" xml:space="preserve">
+    <value>//select[@data-selenium='odr_read_type']</value>
+  </data>
+  <data name="ReadTypeValue" xml:space="preserve">
+    <value>//select[@data-selenium='odr_read_type']//option[normalize-space()='dynamic']</value>
+  </data>
+  <data name="ReadType_dropdown" xml:space="preserve">
+    <value>//label[normalize-space()='Request Type:']//following-sibling::span/select</value>
+  </data>
+  <data name="Request_Type" xml:space="preserve">
+    <value>//select[@name='itron500sconfigjob_requestType']</value>
+  </data>
+  <data name="RSMTableFirstRowValue" xml:space="preserve">
+    <value>//table[@id='provision_results']//tr[@id='rp_results_firstrow']/td[dynamic]</value>
+  </data>
+  <data name="RSMTableHeader" xml:space="preserve">
+    <value>//table[@id='provision_results']//tr/th</value>
+  </data>
+  <data name="RunningText" xml:space="preserve">
+    <value>//span[@id='sending']</value>
+  </data>
+  <data name="Scheduled_Read_Results" xml:space="preserve">
+    <value>//td[@class="paginationbar"]/parent::tr/following-sibling::tr[position()=1]</value>
+  </data>
+  <data name="Scheduled_read_result_table" xml:space="preserve">
+    <value>//table[@class="standard"]</value>
+  </data>
+  <data name="SelectMeterCommandDropDown" xml:space="preserve">
+    <value>//select[@id='meterCommandType']</value>
+  </data>
+  <data name="StartDateOkButton" xml:space="preserve">
+    <value>//*[@id="start_date_DatePicker_0_okButton"]</value>
+  </data>
+  <data name="StartDate_EndDate_Link1" xml:space="preserve">
+    <value>//label[text()='Start Date:']/following-sibling::span/a[contains(@id,'date_link')]</value>
+  </data>
+  <data name="StartTimeRange" xml:space="preserve">
+    <value>//*[@data-selenium="start_date_link"]</value>
+  </data>
+  <data name="Status_Dropdown" xml:space="preserve">
+    <value>//label[normalize-space()='Status:']//parent::div//span//select</value>
+  </data>
+  <data name="Status_Line" xml:space="preserve">
+    <value>//div[@id='status_line']//span[normalize-space()='dynamic']</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableIdInputField" xml:space="preserve">
+    <value>//*[@data-selenium='readTableId']</value>
+  </data>
+  <data name="ThresholdValue" xml:space="preserve">
+    <value>//label[text()='Threshold:']//parent::div//span//input</value>
+  </data>
+  <data name="TimeRangeDropDown" xml:space="preserve">
+    <value>//select[@data-selenium='read_time']</value>
+  </data>
+  <data name="Timezone" xml:space="preserve">
+    <value>//label[text()='Time Zone:']/following-sibling::span/select</value>
+  </data>
+  <data name="Timezone_Field" xml:space="preserve">
+    <value>//label[text()='Time Zone:']/following-sibling::span/select</value>
+  </data>
+  <data name="TotalReadTimeText" xml:space="preserve">
+    <value>//*[@class='footnote']</value>
+  </data>
+  <data name="ViewEventsLink" xml:space="preserve">
+    <value>//*[@id='odr_results_div']//a</value>
+  </data>
+  <data name="Warning_JobID" xml:space="preserve">
+    <value>//div[@id='ssnui-notification-content']//a</value>
+  </data>
+</root>

@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessPointSuccessRate" xml:space="preserve">
+    <value>//span[normalize-space()='Acccess Point Success Rate: ≤']</value>
+  </data>
+  <data name="AccessPointSuccessRateValue" xml:space="preserve">
+    <value>//input[@name='successRate' and @value='100']</value>
+  </data>
+  <data name="ColumnCount" xml:space="preserve">
+    <value>//table[@class='pagination']//tr//td[@class='tal']</value>
+  </data>
+  <data name="CreateCustomReport_Link" xml:space="preserve">
+    <value>//img[@title='Add a New Report']/ancestor::a</value>
+  </data>
+  <data name="CreateReport_link" xml:space="preserve">
+    <value>//a[normalize-space()='dynamic']</value>
+  </data>
+  <data name="CreateReport_SubTabLink" xml:space="preserve">
+    <value>//div[@id='ssnui-headerSubNav']//a[normalize-space()='dynamic']</value>
+  </data>
+  <data name="CurrentDate" xml:space="preserve">
+    <value>//span[@class='mll fs11']</value>
+  </data>
+  <data name="Datepicker_AMPMSelect" xml:space="preserve">
+    <value>//td[@class='timePickerAmPm']//select</value>
+  </data>
+  <data name="Datepicker_AMPMSelect_EndDate" xml:space="preserve">
+    <value>//td[@class='timePickerAmPm']/select[@id='end_time_DatePicker_0_amPmMenu']</value>
+  </data>
+  <data name="Datepicker_ClearLink" xml:space="preserve">
+    <value>//a[text()='Clear']</value>
+  </data>
+  <data name="Datepicker_Day" xml:space="preserve">
+    <value>//tr[@class='datePickerWeek']//td[text()='dynamic']</value>
+  </data>
+  <data name="Datepicker_Day_EndDate" xml:space="preserve">
+    <value>//a[@id='end_time_DatePicker_0_calYearLink']//following::tr[@class='datePickerWeek']//td[text()='dynamic']</value>
+  </data>
+  <data name="DatePicker_EndDate_Clear" xml:space="preserve">
+    <value>//a[@id='end_time_DatePicker_0_clearButton']</value>
+  </data>
+  <data name="Datepicker_hourSelect" xml:space="preserve">
+    <value>//td[@class='timePickerHours']//select</value>
+  </data>
+  <data name="Datepicker_hourSelect_EndDate" xml:space="preserve">
+    <value>//td[@class='timePickerHours']/select[@id='end_time_DatePicker_0_hoursMenu']</value>
+  </data>
+  <data name="Datepicker_MinSelect" xml:space="preserve">
+    <value>//td[@class='timePickerMinutes']//select</value>
+  </data>
+  <data name="Datepicker_MinSelect_EndDate" xml:space="preserve">
+    <value>//td[@class='timePickerMinutes']/select[@id='end_time_DatePicker_0_minutesMenu']</value>
+  </data>
+  <data name="Datepicker_Month" xml:space="preserve">
+    <value>//table[@class='datePickerCal']//a[text()='dynamic']</value>
+  </data>
+  <data name="Datepicker_MonthCell" xml:space="preserve">
+    <value>//div[@class='datePickerMonthCell']</value>
+  </data>
+  <data name="Datepicker_MonthCell_EndDate" xml:space="preserve">
+    <value>//a[@id='end_time_DatePicker_0_calMonthLink' and text()='dynamic']</value>
+  </data>
+  <data name="Datepicker_Month_EndDate" xml:space="preserve">
+    <value>//div[@class='datePickerCalContainer']//a[contains(@id,'end_time') and text()='dynamic']</value>
+  </data>
+  <data name="Datepicker_OKLink" xml:space="preserve">
+    <value>//a[text()='OK']</value>
+  </data>
+  <data name="Datepicker_OKLink_EndDate" xml:space="preserve">
+    <value>//a[contains(@id,'end_time') and text()='OK']</value>
+  </data>
+  <data name="Datepicker_Year" xml:space="preserve">
+    <value>//div[@class='datePickerYearOptions']//a[text()='dynamic']</value>
+  </data>
+  <data name="Datepicker_YearCell" xml:space="preserve">
+    <value>//div[@class='datePickerYearCell']//a[text()='dynamic']</value>
+  </data>
+  <data name="DatePicker_YearCell_EndDate" xml:space="preserve">
+    <value>//a[@id='end_time_DatePicker_0_calYearLink' and text()='dynamic']</value>
+  </data>
+  <data name="DatePicker_Year_EndDate" xml:space="preserve">
+    <value>//div[@class='datePickerYearOptions']/a[contains(@id,'end_time') and text()='dynamic']</value>
+  </data>
+  <data name="Decimal_Precision_label" xml:space="preserve">
+    <value>//div[text()='Decimal Precision:']/span</value>
+  </data>
+  <data name="EndDate_Link" xml:space="preserve">
+    <value>//label[text()='End Date:']/following-sibling::span/a</value>
+  </data>
+  <data name="FileButton" xml:space="preserve">
+    <value>//button[@class='btn btnTiny buttonFiles']</value>
+  </data>
+  <data name="FileDownload" xml:space="preserve">
+    <value>//div[@class='pts']//a//img[@alt='Uncompressed File']</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>//div[@class='pts']</value>
+  </data>
+  <data name="GDT_Date" xml:space="preserve">
+    <value>//table[@id='rr_table']//td[@class='nowrap']</value>
+  </data>
+  <data name="GDT_PageTitle" xml:space="preserve">
+    <value>//div[contains(text(),'Gas Day Take Data Report')]</value>
+  </data>
+  <data name="GDT_SuccessRead_Table_Title" xml:space="preserve">
+    <value>//table[@id='rr_table']//span[normalize-space()='Gas Day Take Read Success']</value>
+  </data>
+  <data name="GDT_TableHeader1" xml:space="preserve">
+    <value>//table[@id='rr_table']//tr[2]/th/span</value>
+  </data>
+  <data name="GDT_TableHeader2" xml:space="preserve">
+    <value>//div[normalize-space()='Unread Gas Day Take Devices']/following-sibling::table//table[@class='standard']//tr/th/a</value>
+  </data>
+  <data name="GenerateReport_link" xml:space="preserve">
+    <value>//div[@class='right']//a[normalize-space()='Generate Report']</value>
+  </data>
+  <data name="IntervalTime" xml:space="preserve">
+    <value>//table[@id='resultsTable']//table[@class='standard']//tr[@class='odd' or 'even' or 'even SHORT_INTERVAL_PERIOD']/td[1]</value>
+  </data>
+  <data name="IntervalValue" xml:space="preserve">
+    <value>//table[@id='resultsTable']//table[@class='standard']//tr[@class='odd' or 'even' or 'even SHORT_INTERVAL_PERIOD']/td[@class='numbers']</value>
+  </data>
+  <data name="Meter_Read_Report_Details" xml:space="preserve">
+    <value>//div[contains(text(),'Meter Read Report:')]</value>
+  </data>
+  <data name="Meter_Read_Report_Popup" xml:space="preserve">
+    <value>//h3[text()='Meter Read Report']</value>
+  </data>
+  <data name="Meter_Read_Report_Select" xml:space="preserve">
+    <value>//label[text()='dynamic:']/following-sibling::span//select</value>
+  </data>
+  <data name="NSR_AccessPointLink" xml:space="preserve">
+    <value>//table[@id='resultstab1']//table[@class='standard']/tbody/tr/th[@class='up']/a</value>
+  </data>
+  <data name="NSR_Date" xml:space="preserve">
+    <value>//div[@class='fs16 fwb mtl mbm left']</value>
+  </data>
+  <data name="NSR_NoResults" xml:space="preserve">
+    <value>//td[text()='No results']</value>
+  </data>
+  <data name="NSR_PageTitle" xml:space="preserve">
+    <value>//div[text()='Network Summary Report']</value>
+  </data>
+  <data name="NSR_RefreshButton" xml:space="preserve">
+    <value>//input[@value='Refresh Tab']</value>
+  </data>
+  <data name="NSR_TableHeader" xml:space="preserve">
+    <value>//table[@id='resultstab1']//table[@class='standard']/tbody/tr/th/span</value>
+  </data>
+  <data name="ODR_Result_td" xml:space="preserve">
+    <value>//table[@id='resultsTable']//table[@class='standard']/tbody//tr/td[1]</value>
+  </data>
+  <data name="ReadReport_Register_List_Key" xml:space="preserve">
+    <value>//td[@class='combined tar']//preceding-sibling::td[@class='tac']//following::td[1]</value>
+  </data>
+  <data name="ReadReport_Register_List_Val" xml:space="preserve">
+    <value>//table[@id='registerResultsTable']//tbody[@id='regResults']/tr/td[@class='combined tar']</value>
+  </data>
+  <data name="ReadReport_Register_List_Val1" xml:space="preserve">
+    <value>//table[@id='registerResultsTable']//tbody[@id='regResults']/tr/td[@class='combined tar']/following-sibling::td[1]</value>
+  </data>
+  <data name="ReadReport_Register_List_Val2" xml:space="preserve">
+    <value>//table[@id='registerResultsTable']//tbody[@id='regResults']/tr/td[@class='tac']</value>
+  </data>
+  <data name="ReadReport_Register_List_Val_NewRow" xml:space="preserve">
+    <value>//table[@id='registerResultsTable']//tbody[@id='regResults']/tr/td[@rowspan='6']/following-sibling::td[@class='combined tar']</value>
+  </data>
+  <data name="Read_Report_Link" xml:space="preserve">
+    <value>//a[text()='Read Report']</value>
+  </data>
+  <data name="ReportDesc" xml:space="preserve">
+    <value>//td//textarea[@name='reportjob_jobDesc']</value>
+  </data>
+  <data name="ReportEmail" xml:space="preserve">
+    <value>//td//input[@name='reportjob_emailNotifyAddress']</value>
+  </data>
+  <data name="ReportJobId" xml:space="preserve">
+    <value>//div[@class='mts' and @data-selenium='ssnui-notification-message']//a</value>
+  </data>
+  <data name="ReportName" xml:space="preserve">
+    <value>//td//input[@name='reportjob_jobName']</value>
+  </data>
+  <data name="ReportSubmit" xml:space="preserve">
+    <value>//span[@class='popup_button_blue']//a[normalize-space()='Generate Report']</value>
+  </data>
+  <data name="ReportSucessNotification" xml:space="preserve">
+    <value>//div[@class='mts' and @data-selenium='ssnui-notification-message']</value>
+  </data>
+  <data name="RequeueCount" xml:space="preserve">
+    <value>//span[normalize-space()='Requeue Count: ≥']</value>
+  </data>
+  <data name="RequeueCountValue" xml:space="preserve">
+    <value>//input[@id='requeues' and @value='0']</value>
+  </data>
+  <data name="RunStatusSuccess" xml:space="preserve">
+    <value>//span[@class='label label-success']</value>
+  </data>
+  <data name="ScheduleType_label" xml:space="preserve">
+    <value>//div[text()='Schedule Type:']/span</value>
+  </data>
+  <data name="StartDate_EndDate_Link" xml:space="preserve">
+    <value>//label[text()='dynamic:']/following-sibling::span/a[contains(@id,'date_link')]</value>
+  </data>
+  <data name="StartDate_EndDate_ReadReport" xml:space="preserve">
+    <value>//label[text()='dynamic:']/following-sibling::span/a[contains(@id,'time_link')]</value>
+  </data>
+  <data name="ViewReport_btn" xml:space="preserve">
+    <value>//button[text()='View Report']</value>
+  </data>
+</root>

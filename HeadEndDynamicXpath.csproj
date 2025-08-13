@@ -1,0 +1,223 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+    <Configurations>Debug;Release;UIQ</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="App.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <COMReference Include="AutoItX3Lib">
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>f8937e53-d444-4e71-9275-35b64210cc3b</Guid>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="App.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.5.0" />
+    <PackageReference Include="NUnit.Analyzers" Version="3.6.1" />
+    <PackageReference Include="coverlet.collector" Version="3.2.0" />
+    <PackageReference Include="Oracle.ManagedDataAccess" Version="23.8.0" />
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="23.8.0" />
+    <PackageReference Include="Selenium.Support" Version="4.15.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.15.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="138.0.7204.4900" />
+    <PackageReference Include="Selenium.WebDriver.MSEdgeDriver" Version="114.0.1823.58" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+    <PackageReference Include="System.Resources.ResourceManager" Version="4.3.0" />
+    <PackageReference Include="WebDriverManager" Version="2.17.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AutoItX3.Assembly">
+      <HintPath>..\..\..\..\..\Program Files (x86)\AutoIt3\AutoItX3\AutoItX3.Assembly.dll</HintPath>
+    </Reference>
+    <Reference Include="Automation">
+      <HintPath>bin\Debug\net6.0\Automation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="PageUI\AMMDeviceGroupUI.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AMMDeviceGroupUI.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PageUI\AMMDevicePageUI.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AMMDevicePageUI.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PageUI\CaasBaseUI.Designer.cs">
+      <DependentUpon>CaasBaseUI.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="PageUI\MeterProgramConfigUI.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>MeterProgramConfigUI.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PageXpaths\AbstractComponent.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AbstractComponent.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PageXpaths\AMMDeviceGroup.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AMMDeviceGroup.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PageXpaths\AMMDevicePage.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AMMDevicePage.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PageXpaths\Base.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Base.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PageXpaths\CaasBase.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CaasBase.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PageXpaths\CreateConfig.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CreateConfig.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PageXpaths\DeviceEvents.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DeviceEvents.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PageXpaths\EditConfigGroup.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EditConfigGroup.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PageXpaths\FWUpgrade.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>FWUpgrade.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PageXpaths\LogoutIDCMPage.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>LogoutIDCMPage.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PageXpaths\MeterProgramConfig.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>MeterProgramConfig.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PageXpaths\NCDevicesPage.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>NCDevicesPage.resx</DependentUpon>
+    </Compile>
+    <Compile Update="UIQSettings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>UIQSettings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="PageUI\AMMDeviceGroupUI.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AMMDeviceGroupUI.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PageUI\AMMDevicePageUI.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AMMDevicePageUI.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PageUI\CaasBaseUI.resx">
+      <LastGenOutput>CaasBaseUI.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PageUI\MeterProgramConfigUI.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MeterProgramConfigUI.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PageXpaths\AbstractComponent.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AbstractComponent.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PageXpaths\AMMDeviceGroup.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AMMDeviceGroup.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PageXpaths\AMMDevicePage.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AMMDevicePage.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PageXpaths\Base.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Base.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PageXpaths\CaasBase.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CaasBase.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PageXpaths\CreateConfig.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateConfig.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PageXpaths\DeviceEvents.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DeviceEvents.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PageXpaths\EditConfigGroup.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>EditConfigGroup.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PageXpaths\FWUpgrade.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FWUpgrade.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PageXpaths\LogoutIDCMPage.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>LogoutIDCMPage.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PageXpaths\MeterProgramConfig.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MeterProgramConfig.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PageXpaths\NCDevicesPage.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>NCDevicesPage.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="UIQSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>UIQSettings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>
